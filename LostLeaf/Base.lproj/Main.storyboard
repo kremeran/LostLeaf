@@ -292,12 +292,25 @@
                                     <constraint firstAttribute="height" constant="6" id="1du-hz-icf"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gva-d6-izD">
+                                <rect key="frame" x="117" y="318.5" width="140" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="CHG-f5-Nz1"/>
+                                    <constraint firstAttribute="height" constant="30" id="fGx-mp-X0E"/>
+                                </constraints>
+                                <state key="normal" title="Log Out (temporary)"/>
+                                <connections>
+                                    <action selector="pressedLogOut:" destination="4AX-tp-VsE" eventType="touchUpInside" id="BG2-TV-gYF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.47393292188644409" green="0.75233793258666992" blue="0.25955262780189514" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="gva-d6-izD" firstAttribute="centerX" secondItem="UHL-sO-46z" secondAttribute="centerX" id="1Qq-ng-vQ2"/>
                             <constraint firstAttribute="trailing" secondItem="E4k-mL-mjM" secondAttribute="trailing" id="7eY-09-yHP"/>
                             <constraint firstItem="bnt-ct-1Xw" firstAttribute="top" secondItem="JmQ-n1-83d" secondAttribute="bottom" id="KLc-V3-Zgr"/>
                             <constraint firstAttribute="trailing" secondItem="JmQ-n1-83d" secondAttribute="trailing" id="ZUa-nF-gcT"/>
+                            <constraint firstItem="gva-d6-izD" firstAttribute="centerY" secondItem="UHL-sO-46z" secondAttribute="centerY" id="hLl-4S-CP8"/>
                             <constraint firstItem="E4k-mL-mjM" firstAttribute="leading" secondItem="UHL-sO-46z" secondAttribute="leading" id="jnO-q4-vkj"/>
                             <constraint firstItem="JmQ-n1-83d" firstAttribute="top" secondItem="E4k-mL-mjM" secondAttribute="bottom" id="m1G-oO-kdP"/>
                             <constraint firstItem="JmQ-n1-83d" firstAttribute="leading" secondItem="UHL-sO-46z" secondAttribute="leading" id="pEp-59-5gg"/>
