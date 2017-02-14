@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAF73BA4600E791E38D99C58 /* Pods_LostLeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0CE6B46B5F56F3334A995E /* Pods_LostLeaf.framework */; };
+		F40E571B1E53550000531925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E571A1E53550000531925 /* AppDelegate.swift */; };
+		F40E57201E53550000531925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E571E1E53550000531925 /* Main.storyboard */; };
+		F40E57231E53550000531925 /* LostLeaf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40E57211E53550000531925 /* LostLeaf.xcdatamodeld */; };
+		F40E57251E53550000531925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40E57241E53550000531925 /* Assets.xcassets */; };
+		F40E57281E53550000531925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40E57261E53550000531925 /* LaunchScreen.storyboard */; };
+		F40E57351E535C0800531925 /* Logo_black_1200.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E57311E535C0800531925 /* Logo_black_1200.png */; };
+		F40E57361E535C0800531925 /* Logo_color_240.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E57321E535C0800531925 /* Logo_color_240.png */; };
+		F40E57371E535C0800531925 /* Logo_color_1200.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E57331E535C0800531925 /* Logo_color_1200.png */; };
+		F40E57381E535C0800531925 /* Logo_white_1200.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E57341E535C0800531925 /* Logo_white_1200.png */; };
+		F40E573B1E535ED300531925 /* Logo_black_240.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E57391E535ED300531925 /* Logo_black_240.png */; };
+		F40E573C1E535ED300531925 /* Logo_white_240.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E573A1E535ED300531925 /* Logo_white_240.png */; };
+		F40E573F1E53602200531925 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E573E1E53602200531925 /* InitialViewController.swift */; };
+		F40E57411E53616E00531925 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E57401E53616E00531925 /* LogInViewController.swift */; };
+		F4AD1CE31E537B29007270AA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4AD1CE21E537B29007270AA /* GoogleService-Info.plist */; };
+		F4CD11331E53976100C71522 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD11321E53976100C71522 /* MainMenuViewController.swift */; };
+		F4CD11351E53998E00C71522 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD11341E53998E00C71522 /* SignUpViewController.swift */; };
+		F4CD11401E53A98D00C71522 /* Social.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CD113F1E53A98D00C71522 /* Social.png */; };
+		F4CD11421E53A9DF00C71522 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CD11411E53A9DF00C71522 /* Home.png */; };
+		F4CD11441E53AA3D00C71522 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CD11431E53AA3D00C71522 /* Settings.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5025228EF10FBDAA2BC49C7E /* Pods-LostLeaf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostLeaf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostLeaf/Pods-LostLeaf.debug.xcconfig"; sourceTree = "<group>"; };
+		5EDF21910EAB0D8EEDDA16B3 /* Pods-LostLeaf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostLeaf.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostLeaf/Pods-LostLeaf.release.xcconfig"; sourceTree = "<group>"; };
+		7D0CE6B46B5F56F3334A995E /* Pods_LostLeaf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostLeaf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E57171E53550000531925 /* LostLeaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostLeaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40E571A1E53550000531925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40E571F1E53550000531925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40E57221E53550000531925 /* LostLeaf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostLeaf.xcdatamodel; sourceTree = "<group>"; };
+		F40E57241E53550000531925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40E57271E53550000531925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40E57291E53550000531925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40E57311E535C0800531925 /* Logo_black_1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_black_1200.png; sourceTree = "<group>"; };
+		F40E57321E535C0800531925 /* Logo_color_240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_color_240.png; sourceTree = "<group>"; };
+		F40E57331E535C0800531925 /* Logo_color_1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_color_1200.png; sourceTree = "<group>"; };
+		F40E57341E535C0800531925 /* Logo_white_1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_white_1200.png; sourceTree = "<group>"; };
+		F40E57391E535ED300531925 /* Logo_black_240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_black_240.png; sourceTree = "<group>"; };
+		F40E573A1E535ED300531925 /* Logo_white_240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_white_240.png; sourceTree = "<group>"; };
+		F40E573E1E53602200531925 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		F40E57401E53616E00531925 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F4AD1CE21E537B29007270AA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F4CD11321E53976100C71522 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		F4CD11341E53998E00C71522 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F4CD113F1E53A98D00C71522 /* Social.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Social.png; sourceTree = "<group>"; };
+		F4CD11411E53A9DF00C71522 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		F4CD11431E53AA3D00C71522 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40E57141E53550000531925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF73BA4600E791E38D99C58 /* Pods_LostLeaf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38F25E5FCA4638898AAF07CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5025228EF10FBDAA2BC49C7E /* Pods-LostLeaf.debug.xcconfig */,
+				5EDF21910EAB0D8EEDDA16B3 /* Pods-LostLeaf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACFA41C8E379A4E5F5DF27C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0CE6B46B5F56F3334A995E /* Pods_LostLeaf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F40E570E1E53550000531925 = {
+			isa = PBXGroup;
+			children = (
+				F40E57191E53550000531925 /* LostLeaf */,
+				F40E57181E53550000531925 /* Products */,
+				38F25E5FCA4638898AAF07CC /* Pods */,
+				ACFA41C8E379A4E5F5DF27C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F40E57181E53550000531925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40E57171E53550000531925 /* LostLeaf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40E57191E53550000531925 /* LostLeaf */ = {
+			isa = PBXGroup;
+			children = (
+				F40E573D1E53600100531925 /* ViewControllers */,
+				F40E572F1E535A0500531925 /* Images */,
+				F40E571E1E53550000531925 /* Main.storyboard */,
+				F40E57241E53550000531925 /* Assets.xcassets */,
+				F40E57261E53550000531925 /* LaunchScreen.storyboard */,
+				F4AD1CE21E537B29007270AA /* GoogleService-Info.plist */,
+				F40E57291E53550000531925 /* Info.plist */,
+				F40E57211E53550000531925 /* LostLeaf.xcdatamodeld */,
+			);
+			path = LostLeaf;
+			sourceTree = "<group>";
+		};
+		F40E572F1E535A0500531925 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD11381E53A68C00C71522 /* Menu Images */,
+				F40E57301E535A0E00531925 /* Logos */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F40E57301E535A0E00531925 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				F40E57391E535ED300531925 /* Logo_black_240.png */,
+				F40E573A1E535ED300531925 /* Logo_white_240.png */,
+				F40E57321E535C0800531925 /* Logo_color_240.png */,
+				F40E57311E535C0800531925 /* Logo_black_1200.png */,
+				F40E57331E535C0800531925 /* Logo_color_1200.png */,
+				F40E57341E535C0800531925 /* Logo_white_1200.png */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		F40E573D1E53600100531925 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F40E571A1E53550000531925 /* AppDelegate.swift */,
+				F40E573E1E53602200531925 /* InitialViewController.swift */,
+				F40E57401E53616E00531925 /* LogInViewController.swift */,
+				F4CD11321E53976100C71522 /* MainMenuViewController.swift */,
+				F4CD11341E53998E00C71522 /* SignUpViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F4CD11381E53A68C00C71522 /* Menu Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4CD11411E53A9DF00C71522 /* Home.png */,
+				F4CD11431E53AA3D00C71522 /* Settings.png */,
+				F4CD113F1E53A98D00C71522 /* Social.png */,
+			);
+			name = "Menu Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40E57161E53550000531925 /* LostLeaf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40E572C1E53550000531925 /* Build configuration list for PBXNativeTarget "LostLeaf" */;
+			buildPhases = (
+				85D155C75C8CE230852C6824 /* [CP] Check Pods Manifest.lock */,
+				F40E57131E53550000531925 /* Sources */,
+				F40E57141E53550000531925 /* Frameworks */,
+				F40E57151E53550000531925 /* Resources */,
+				BB95A0A4EB8B368321A57A30 /* [CP] Embed Pods Frameworks */,
+				8B4698FFAAA5161253A00B1F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LostLeaf;
+			productName = LostLeaf;
+			productReference = F40E57171E53550000531925 /* LostLeaf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40E570F1E53550000531925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = LostLeaf;
+				TargetAttributes = {
+					F40E57161E53550000531925 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 2K96GCENN5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F40E57121E53550000531925 /* Build configuration list for PBXProject "LostLeaf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40E570E1E53550000531925;
+			productRefGroup = F40E57181E53550000531925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40E57161E53550000531925 /* LostLeaf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40E57151E53550000531925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40E57281E53550000531925 /* LaunchScreen.storyboard in Resources */,
+				F40E57351E535C0800531925 /* Logo_black_1200.png in Resources */,
+				F4CD11401E53A98D00C71522 /* Social.png in Resources */,
+				F40E57381E535C0800531925 /* Logo_white_1200.png in Resources */,
+				F4CD11421E53A9DF00C71522 /* Home.png in Resources */,
+				F40E57251E53550000531925 /* Assets.xcassets in Resources */,
+				F40E57371E535C0800531925 /* Logo_color_1200.png in Resources */,
+				F40E57361E535C0800531925 /* Logo_color_240.png in Resources */,
+				F40E57201E53550000531925 /* Main.storyboard in Resources */,
+				F4AD1CE31E537B29007270AA /* GoogleService-Info.plist in Resources */,
+				F4CD11441E53AA3D00C71522 /* Settings.png in Resources */,
+				F40E573C1E535ED300531925 /* Logo_white_240.png in Resources */,
+				F40E573B1E535ED300531925 /* Logo_black_240.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85D155C75C8CE230852C6824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B4698FFAAA5161253A00B1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostLeaf/Pods-LostLeaf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB95A0A4EB8B368321A57A30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostLeaf/Pods-LostLeaf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40E57131E53550000531925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CD11351E53998E00C71522 /* SignUpViewController.swift in Sources */,
+				F40E57231E53550000531925 /* LostLeaf.xcdatamodeld in Sources */,
+				F4CD11331E53976100C71522 /* MainMenuViewController.swift in Sources */,
+				F40E571B1E53550000531925 /* AppDelegate.swift in Sources */,
+				F40E57411E53616E00531925 /* LogInViewController.swift in Sources */,
+				F40E573F1E53602200531925 /* InitialViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F40E571E1E53550000531925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E571F1E53550000531925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40E57261E53550000531925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40E57271E53550000531925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40E572A1E53550000531925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40E572B1E53550000531925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40E572D1E53550000531925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5025228EF10FBDAA2BC49C7E /* Pods-LostLeaf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K96GCENN5;
+				INFOPLIST_FILE = LostLeaf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lostleaf.lostleaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F40E572E1E53550000531925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDF21910EAB0D8EEDDA16B3 /* Pods-LostLeaf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2K96GCENN5;
+				INFOPLIST_FILE = LostLeaf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lostleaf.lostleaf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40E57121E53550000531925 /* Build configuration list for PBXProject "LostLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E572A1E53550000531925 /* Debug */,
+				F40E572B1E53550000531925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40E572C1E53550000531925 /* Build configuration list for PBXNativeTarget "LostLeaf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40E572D1E53550000531925 /* Debug */,
+				F40E572E1E53550000531925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F40E57211E53550000531925 /* LostLeaf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F40E57221E53550000531925 /* LostLeaf.xcdatamodel */,
+			);
+			currentVersion = F40E57221E53550000531925 /* LostLeaf.xcdatamodel */;
+			path = LostLeaf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F40E570F1E53550000531925 /* Project object */;
+}
